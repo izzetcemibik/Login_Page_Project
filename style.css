@@ -1,0 +1,40 @@
+body{
+    background-color: deepskyblue;
+}
+form{
+    background-color: rgb(26, 154, 228);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+input{
+    margin-top: 20px; /*aralarında boşluk ayarladım email password ve giriş arasında*/
+    width: 60%; /*form un %60 ı kadar geniş olsun dedik*/
+    padding: 10px;/* mail password falan kutunun içinde yaza mail gir gibi yazıları kutu içinde biraz içeri aldık*/
+    border: none; /*mail password kısmında çerçeve olmasın diye*/
+    outline: none; /*üstüne gelindiğinde çerçeve olmaması için*/
+}
+.submit{
+    width: 25%;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
